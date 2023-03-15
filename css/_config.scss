@@ -1,0 +1,48 @@
+// Main Variables
+$Main-white: #ffffff;
+$Footer-BG-color: #f2f2f2;
+$Product-info-BG-color: #f2f2f2;
+$Product-info-Btn-BG-color: #00a878;
+$Product-info-Btn-text-color: #00a878;
+$Main-green: #00a878;
+$Product-info-dropdown-heading: #6e6e6e;
+$hr-split-line-color: #dedede;
+$Primary-color: #fe5f43;
+$Text-color: #1e1e1e;
+$Icons-color: #1e1e1e;
+$Icons-alternate-color: #ffffff;
+$Main-white: #ffffff;
+$Main-black: #000000;
+$Paragraph-font: 'Inter', sans-serif;
+$Heading-fonts: 'Poppins', sans-serif;
+$Nav-font-size: 18px;
+$Regular-font-size: 16px;
+$Small-font-size: 14px;
+
+/*Mixins */
+
+@mixin for-phone-only {
+  @media (max-width: 599px) {
+    @content;
+  }
+}
+@mixin for-tablet-portrait-up {
+  @media (min-width: 600px) {
+    @content;
+  }
+}
+@mixin for-tablet-landscape-up {
+  @media (min-width: 900px) {
+    @content;
+  }
+}
+@mixin for-desktop-up {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+@mixin for-big-desktop-up {
+  @media (min-width: 1800px) {
+    @content;
+  }
+}

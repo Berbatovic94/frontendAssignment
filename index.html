@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--HEADER -->
+    <header id="header">
+      <div class="wraper">
+        
+        <div id="navMenue">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+
+        <div class="logo">
+          <img src="images/LOGO.png" alt="logo" />
+        </div>
+        <nav id="navigation">
+          <ul>
+            <li><a class="active" href="#">Products</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <form action="">
+          <div class="Icon-inside">
+            <input type="text" placeholder="Search" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </form>
+        <div class="social">
+          <a href="#"><i class="fa-regular fa-user"></i></a>
+          <a href="#"><i class="fa-regular fa-heart"></i></a>
+          <a href="#"><i class="chart fa-solid fa-cart-shopping"></i></a>
+          <div class="itemCounter"><span>1</span></div>
+        </div>
+      </div>
+    </header>
+
+    <!--CATEGORIES-->
+    <section id = 'catLinks'class="wraper">
+      <ul class="catList">
+        <li><a href="#">Home</a><i class="fa-solid fa-angle-right"></i></li>
+        <li><a href="#">Products</a><i class="fa-solid fa-angle-right"></i></li>
+        <li><a href="#">Bikes</a><i class="fa-solid fa-angle-right"></i></li>
+      </ul>
+
+      <ul class="iconsList">
+        <li>
+          <a href="#"><i class="fa-solid fa-arrow-left"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-regular fa-heart"></i></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/share-nodes.png" alt="share icon" /></a>
+        </li>
+        </ul>
+    </section>
+
+    <!--PRODUCT SECTION-->
+    <section class="wraper">
+      <div id="productSlider">
+        <h2>Product name lorem ipsum</h2>
+        <img src="images/image 1.png" alt="product image" />
+
+        <div class="left-arrow"><i class="fa-solid fa-angle-left"></i></div>
+        <div class="right-arrow"><i class="fa-solid fa-angle-right"></i></div>
+      </div>
+      <div id="productDescription">
+        <div class="icons"></div>
+        <p class="subHeading">
+          In stock <span style="color: #fe5f43">only 2 left</span>
+        </p>
+        <p class="description">
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum.
+        </p>
+        <div class="dropdownCont">
+          <div class="dropdownInitial">
+            <div class="dropText">
+              <h5>Model</h5>
+              <p>Gents - Medium</p>
+            </div>
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+          <div class="dropdownInitial">
+            <div class="dropText">
+              <h5>Color</h5>
+              <p>Black</p>
+            </div>
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+        </div>
+
+        <form action="">
+          <input
+            checked="checked"
+            type="checkbox"
+            id="option1"
+            name="option1"
+            value="Option1"
+          />
+          <label for="vehicle1"> Add option lorem ipsum </label><br />
+          <input type="checkbox" id="option2" name="option2" value="Option2" />
+          <label for="vehicle2">
+            Add option autpat velit cano totam rem aperiam</label
+          ><br />
+        </form>
+
+        <div class="buttonCont">
+          <a href="#" class="descButton">Add to cart</a>
+          <a href="#" class="descButton">Contact us</a>
+        </div>
+      </div>
+    </section>
+
+    <!--ADITIONAL INFO SECTION-->
+    <section class="wraper">
+      <ul class="itemList">
+        <li><a href="#">Description</a></li>
+        <li><a href="#">Specifications</a></li>
+        <li><a href="#">Reviews (7)</a></li>
+      </ul>
+      </ul>
+    </section>
+
+    <hr />
+
+    <!--PRODUCT DESCRIPTION-->
+
+    <section class="wraper">
+      <article class="productInfo">
+        <h2>Product description</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur.
+        </p>
+        <p>
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+          officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde
+          omnis iste natus error sit voluptatem accusantium doloremque
+          laudantium.
+        </p>
+
+        <a href="#" class="morInfoBTN">More Info</a>
+      </article>
+      <div class="productImage">
+        <img
+          src="images/maixent-viau-hQvzY0gXsdk-unsplash 1.jpg"
+          alt="product image"
+          title="product image"
+        />
+      </div>
+    </section>
+
+    <!--TECHNICAL SPECIFICATIONS TABLE-->
+<section id="tableSect">
+    <div class="wraper" style="overflow-x:auto;">
+      <h2>Technical specifications</h2>
+      <table>
+        <tr>
+          <th>Model</th>
+          <th>Frame size</th>
+          <th>Weight</th>
+          <th>Max speed</th>
+          <th>Battery</th>
+          <th>Engine</th>
+          
+        </tr>
+        <tr>
+          <td>Ladies - Small</td>
+          <td>50 cm</td>
+          <td>24 kg</td>
+          <td>45 km/h</td>
+          <td>625 Wh</td>
+          <td>Bosch Performance Line Speed</td>
+        </tr>
+        <tr>
+          <td>Ladies - Medium</td>
+          <td>55 cm</td>
+          <td>25 kg</td>
+          <td>45 km/h</td>
+          <td>625 Wh</td>
+          <td>Bosch Performance Line Speed</td>
+        </tr>
+        <tr>
+          <td>Ladies - Large</td>
+          <td>60 cm</td>
+          <td>26 kg</td>
+          <td>45 km/h</td>
+          <td>625 Wh</td>
+          <td>Bosch Performance Line Speed</td>
+        </tr>
+        <tr>
+          <td>Gents - Small</td>
+          <td>50 cm</td>
+          <td>24 kg</td>
+          <td>45 km/h</td>
+          <td>625 Wh</td>
+          <td>Bosch Performance Line Speed</td>
+        </tr>
+        <tr>
+          <td>Gents - Medium</td>
+          <td>55 cm</td>
+          <td>25 kg</td>
+          <td>45 km/h</td>
+          <td>625 Wh</td>
+          <td>Bosch Performance Line Speed</td>
+        </tr>
+        <tr>
+          <td>Gents - Large</td>
+          <td>60 cm</td>
+          <td>26 kg</td>
+          <td>45 km/h</td>
+          <td>625 Wh</td>
+          <td>Bosch Performance Line Speed</td>
+        </tr>
+      </table>
+    </div>
+  </section>
+    <div id="overlay">
+      <form action="">
+        <i id='turnOfForm' class="fa-solid fa-xmark"></i>
+        <h2>Contact us </h2>
+        <p>We’ll get back to you as soon as possible.</p>
+        <input type="text" id="fname" name="firstname" placeholder="Your e-mail">
+        <textarea id="subject" name="subject" placeholder="Your message" style="height:200px"></textarea>
+        
+        <div class="formBTNCont">
+          <div id='cancelBTN'class="cancel">Cancel</div>
+        <input id="submitBTN" type="submit" value="Send message">
+      </div>
+        
+        
+      </form>
+    </div>
+
+    <script src="formControl.js"></script>
+  </body>
+</html>
